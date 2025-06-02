@@ -1,0 +1,15 @@
+﻿<!DOCTYPE html>
+    <html>
+    <head>
+        <title>Products</title>
+    </head>
+    <body>
+       <h1 class="">All Products</h1>
+    <ul class="list-group">
+        @foreach (var product in Model)
+        {
+            <li class="list-group-item list-group-item-primary w-25">@product.Name</li>
+        }
+    </ul>
+</body>
+    </html>
